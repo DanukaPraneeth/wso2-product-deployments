@@ -1,4 +1,4 @@
-# Ansible automation of Internal Gateway ( v3.0.0 ) deployement
+# Ansible automation of WSO2 Api Manager
 
 This is an ansile project to automate downloading the internal gateway products on servers, creating databases, configuring the product changes and start the pack. Products are deployed on four servers as follows.
 
