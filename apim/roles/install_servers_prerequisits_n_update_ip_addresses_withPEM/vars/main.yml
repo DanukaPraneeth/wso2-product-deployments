@@ -1,0 +1,19 @@
+---
+# vars file for aws_automation
+## Update the following arrays with the intances you need to start
+
+AM_server_1_ip: 1.1.1.1
+AM_domain_name: am.com
+
+MIG_server_1_ip: 2.2.2.2
+MIG_server: mig.com:9443       # change the port accorgingly for any offset
+MIG_domain_name: mig.com
+
+DAS_server_1_ip: 3.3.3.3
+DAS_domain_name: das.com
+
+DB_server_M_ip: 4.4.4.4
+DB_domain_name: db.com
+
+ansible_user: centos
+pem_location: testing-key.pem          # Give the pem file location

@@ -1,0 +1,15 @@
+---
+
+#---------------------- create an ec2 -----------------------------------------
+
+- name: WSO2 APIM deployment automation process - Databases
+  hosts: DB_server_M
+  become: true
+  become_method: sudo
+  gather_facts: True
+  tags: DB server setup
+
+  roles:
+    - dbserver_prerequisites
+    - import_products
+    - create_DB
